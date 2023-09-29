@@ -3946,6 +3946,9 @@
 			<attachment name="territoryAttachment" attatchTo="Water 19" javaClass="TerritoryAttachment" type="territory">
 				<option name="territoryEffect" value="Ocean"/>
 			</attachment>
+			<attachment name="territoryAttachment" attatchTo="Water 20" javaClass="TerritoryAttachment" type="territory">
+				<option name="territoryEffect" value="Ocean"/>
+			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Water 21" javaClass="TerritoryAttachment" type="territory">
 				<option name="territoryEffect" value="Ocean"/>
 			</attachment>
@@ -4100,19 +4103,19 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Humorum" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Frigoris" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Crisium" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Cognitum" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Highlands" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
@@ -4124,7 +4127,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Vaporum" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Granada West" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
@@ -4187,11 +4190,11 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Shangri-La 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Shangri-La 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Londenion 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4206,11 +4209,11 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Blade 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Blade 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Ease 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4218,23 +4221,23 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Ease 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 30 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 30 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier One 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier One 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier Two 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4242,7 +4245,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier Two 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="New Manhattan 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4255,7 +4258,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier Four 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier Four 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4293,11 +4296,11 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Watohoat 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Watohoat 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Industrial 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4305,7 +4308,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Industrial 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="A Baoa Qu 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4338,22 +4341,22 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Core 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-SAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Tigerbaum 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-SAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Tigerbaum 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-SAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Quintzem 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Quintzem 2" javaClass="TerritoryAttachment" type="territory">
@@ -4363,12 +4366,12 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mahal 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mahal 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Zum City 1" javaClass="TerritoryAttachment" type="territory">
@@ -4378,17 +4381,17 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Zum City 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony Nine 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-EAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony Nine 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="Zeon-EAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Pezun 1" javaClass="TerritoryAttachment" type="territory">
@@ -4408,15 +4411,15 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Amelia 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="5"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 13 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 13 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="21st Block 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4425,7 +4428,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="21st Block 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Hellas 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4433,19 +4436,19 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Hellas 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="18th Block 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="18th Block 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Green Noa One 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="OpV"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Green Noa One 2" javaClass="TerritoryAttachment" type="territory">
@@ -4461,7 +4464,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Green Noa Two 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="4"/>
 			<option name="originalOwner" value="OpV"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Luna II 1" javaClass="TerritoryAttachment" type="territory">
@@ -4907,7 +4910,7 @@
 			<option name="territoryEffect" value="Space"/>
 			<option name="production" value="0"/>
 		</attachment>
-		<attachment name="territoryAttachment" attatchTo="Space Zone 10" javaClass="TerritoryAttachment" type="territory">
+		<attachment name="territoryAttachment" attatchTo="Space Zone 100" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Space"/>
 			<option name="production" value="0"/>
 		</attachment>
@@ -5226,14 +5229,12 @@
 			<option name="movementCostModifier" value="$Hybrid$:$Assault-Carrier$" count="1"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Mountains" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$:$MS-Marine$:$Assault-Carrier$"/>
 			<option name="combatDefenseEffect" value="1:$Hybrid$:$MS-Land$:$MS-Marine$:$MBT$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Mountain$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Mountain$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Urban" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$:$MS-Marine$:$MBT$:$Air-Unit$"/>
-			<option name="combatDefenseEffect" value="1:$Hybrid$:$MS-Land$:$MS-Marine$:$MBT$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Jungle" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$Space-Only$"/>
@@ -5244,15 +5245,11 @@
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Arctic" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$Space-Only$"/>
-			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$"/>
-			<option name="combatDefenseEffect" value="-1:$Hybrid$:$MS-Land$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Mountain$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Mountain$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Desert" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$Space-Only$"/>
-			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$:$MS-Marine$"/>
-			<option name="combatDefenseEffect" value="-1:$Hybrid$:$MS-Land$:$MS-Marine$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Desert$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Desert$"/>
 		</attachment>
@@ -5326,7 +5323,7 @@
 					<option name="defense" value="2"/>
 					<option name="movement" value="4"/>
 					<option name="isAir" value="true"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gaw" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5334,21 +5331,21 @@
 					<option name="defense" value="2"/>
 					<option name="movement" value="4"/>
 					<option name="isAir" value="true"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Zaku_II" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="3"/>
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Magella" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="2"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Jukon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5356,7 +5353,7 @@
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
 					<option name="unitPlacementOnlyAllowedIn" value="Earth-Dock"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5364,7 +5361,7 @@
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5372,7 +5369,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5381,7 +5378,7 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5389,7 +5386,7 @@
 					<option name="attack" value="3"/>
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5397,7 +5394,7 @@
 					<option name="attack" value="3"/>
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Zanzibar" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5405,14 +5402,14 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Papua" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="1"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5421,7 +5418,7 @@
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="2"/><!--sets the value the AA will attack at-->
@@ -5439,7 +5436,7 @@
 					<option name="attack" value="3"/>
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5447,7 +5444,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5456,7 +5453,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="unitPlacementOnlyAllowedIn" value="Earth-Dock"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5464,7 +5461,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5472,7 +5469,7 @@
 					<option name="attack" value="3"/>
 					<option name="defense" value="4"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5480,14 +5477,14 @@
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gouf" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5495,7 +5492,7 @@
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5505,7 +5502,7 @@
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5515,7 +5512,7 @@
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -5534,7 +5531,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -5552,7 +5549,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5560,7 +5557,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5568,7 +5565,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5577,7 +5574,7 @@
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5596,7 +5593,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5604,14 +5601,14 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Rick_Dom" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Zaku_II_Reuse-P" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5619,7 +5616,7 @@
 					<option name="defense" value="8"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5638,7 +5635,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5647,7 +5644,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5667,7 +5664,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5686,7 +5683,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5694,21 +5691,22 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Dom_Tropen" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Act_Zaku" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gyan" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5716,7 +5714,7 @@
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="4"/><!--sets the value the AA will attack at-->
@@ -5735,7 +5733,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -5753,7 +5751,8 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Dom_Gross_Beil" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5761,7 +5760,8 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -5779,7 +5779,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gelgoog_Jager" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5787,7 +5787,7 @@
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="4"/><!--sets the value the AA will attack at-->
@@ -5806,7 +5806,7 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5826,7 +5826,8 @@
 					<option name="defense" value="8"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="4"/><!--sets the value the AA will attack at-->
@@ -5844,14 +5845,15 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gelgoog_Ground" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Zeong" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5859,7 +5861,7 @@
 					<option name="defense" value="10"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -5878,7 +5880,7 @@
 					<option name="attack" value="8"/>
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Schnee_Weis" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5886,7 +5888,8 @@
 					<option name="defense" value="10"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
@@ -5904,21 +5907,23 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gelgoog_Desert" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Apsaras_III" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="10"/>
 					<option name="defense" value="11"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
 					
@@ -5939,21 +5944,21 @@
 					<option name="attack" value="2"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="4"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Fly_Manta" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="3"/>
 					<option name="defense" value="3"/>
 					<option name="movement" value="4"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Type_61_Tank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="2"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Himalaya" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5961,7 +5966,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="unitPlacementOnlyAllowedIn" value="Earth-Dock"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5969,7 +5974,7 @@
 					<option name="attack" value="2"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5977,7 +5982,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5986,7 +5991,7 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -5994,14 +5999,14 @@
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Ball" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="2"/>
 					<option name="defense" value="3"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6010,14 +6015,14 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="hitPoints" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Guncannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="4"/>
 					<option name="defense" value="5"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gundam" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -6025,7 +6030,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -6043,7 +6048,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6052,7 +6057,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
@@ -6070,7 +6075,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Gundam_Ground_Type" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -6078,7 +6083,7 @@
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -6097,7 +6102,7 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6106,7 +6111,7 @@
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="4"/><!--sets the value the AA will attack at-->
@@ -6124,21 +6129,21 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM_Light" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM_Moore" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6146,7 +6151,7 @@
 					<option name="attack" value="5"/>
 					<option name="defense" value="6"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6155,7 +6160,7 @@
 					<option name="defense" value="10"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -6175,7 +6180,7 @@
 					<option name="defense" value="10"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
@@ -6194,7 +6199,7 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="4"/><!--sets the value the AA will attack at-->
@@ -6213,7 +6218,7 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					
@@ -6232,7 +6237,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6240,7 +6245,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6248,7 +6253,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6256,7 +6261,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6264,7 +6269,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6272,7 +6277,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6280,7 +6285,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6288,7 +6293,7 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -6297,7 +6302,7 @@
 					<option name="defense" value="11"/>
 					<option name="movement" value="3"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
@@ -6315,14 +6320,14 @@
 					<option name="attack" value="7"/>
 					<option name="defense" value="8"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM_Spartan" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="9"/>
 					<option name="defense" value="10"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM Dominance" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -6330,14 +6335,14 @@
 					<option name="defense" value="9"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM_Night_Seeker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="8"/>
 					<option name="defense" value="9"/>
 					<option name="movement" value="3"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="GM_Juggler" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -6345,7 +6350,8 @@
 					<option name="defense" value="10"/>
 					<option name="movement" value="2"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 					
 					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
@@ -6364,7 +6370,7 @@
 					<option name="attack" value="1"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="2"/>
-					<option name="createsResourcesList" value="-1:PUs"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
 				</attachment>
@@ -7361,6 +7367,9 @@
 					<option name="when" value="after:zeon-EAFPlace"/>
 					<option name="when" value="after:zeon-MAFPlace"/>
 					<option name="when" value="after:zeon-SAFPlace"/>
+					<option name="productionRule" value="Zeon-EAFProduction:-buyZakuII"/>
+					<option name="productionRule" value="Zeon-MAFProduction:-buyZakuII"/>
+					<option name="productionRule" value="Zeon-SAFProduction:-buyZakuII"/>
 					<option name="productionRule" value="Zeon-EAFProduction:buyZakuIIF2"/>
 					<option name="productionRule" value="Zeon-MAFProduction:buyZakuIIF2"/>
 					<option name="productionRule" value="Zeon-SAFProduction:buyZakuIIF2"/>
@@ -8013,6 +8022,9 @@
 					<option name="productionRule" value="Zeon-EAFProduction:-buyDevelop-DomTropen"/>
 					<option name="productionRule" value="Zeon-MAFProduction:-buyDevelop-DomTropen"/>
 					<option name="productionRule" value="Zeon-SAFProduction:-buyDevelop-DomTropen"/>
+					<option name="productionRule" value="Zeon-EAFProduction:-buyDevelop-ApsarasIII"/>
+					<option name="productionRule" value="Zeon-MAFProduction:-buyDevelop-ApsarasIII"/>
+					<option name="productionRule" value="Zeon-SAFProduction:-buyDevelop-ApsarasIII"/>
 					<option name="removeUnits" value="all:Develop-DomTropen" count="1"/>
 					<option name="uses" value="1"/>
 				</attachment>
@@ -8238,6 +8250,24 @@
 					<option name="productionRule" value="EFSFProduction:buyDevelop-AtlasGundam"/>
 					<option name="productionRule" value="OpVProduction:buyDevelop-AtlasGundam"/>
 					<option name="removeUnits" value="all:Develop-AquaGM" count="1"/>
+					<option name="uses" value="1"/>
+				</attachment>
+				<attachment foreach="$PlayersFederation$" name="conditionAttachment-@PlayersFederation@-Develop-AtlasGundam" attachTo="@PlayersFederation@" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+					<option name="directPresenceTerritories" value="map" count="1"/>
+					<option name="unitPresence" value="Develop-AtlasGundam" count="1"/>
+				</attachment>
+				<attachment foreach="$PlayersFederation$" name="triggerAttachment_@PlayersFederation@-Develop-AtlasGundam" attachTo="@PlayersFederation@" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+					<option name="conditions" value="conditionAttachment-@PlayersFederation@-Develop-AtlasGundam"/>
+					<option name="when" value="after:eFGFPlace"/>
+					<option name="when" value="after:eFSFPlace"/>
+					<option name="when" value="after:opVPlace"/>
+					<option name="productionRule" value="EFGFProduction:-buyDevelop-AtlasGundam"/>
+					<option name="productionRule" value="EFSFProduction:-buyDevelop-AtlasGundam"/>
+					<option name="productionRule" value="OpVProduction:-buyDevelop-AtlasGundam"/>
+					<option name="productionRule" value="EFGFProduction:buyAtlasGundam"/>
+					<option name="productionRule" value="EFSFProduction:buyAtlasGundam"/>
+					<option name="productionRule" value="OpVProduction:buyAtlasGundam"/>
+					<option name="removeUnits" value="all:Develop-AtlasGundam count="1"/>
 					<option name="uses" value="1"/>
 				</attachment>
 				<attachment foreach="$PlayersFederation$" name="conditionAttachment-@PlayersFederation@-Develop-AquaGMB" attachTo="@PlayersFederation@" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
