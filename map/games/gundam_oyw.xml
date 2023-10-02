@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="Gundam: One Year War" version="2.0"/>
+	<info name="Gundam: One Year War" version="1.2"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="2.5"/>
 	<diceSides value="12"/>
@@ -117,9 +117,11 @@
 	</variable>
 	<variable name="All-Units"> <!--Full list as of 2.0-->
 		<element name="Apsaras_III"/>
+		<element name="Apsaras_III-damaged"/>
 		<element name="Acguy"/>
 		<element name="Act_Zaku"/>
 		<element name="Big_Zam"/>
+		<element name="Big_Zam-damaged"/>
 		<element name="Braw_Bro"/>
 		<element name="Chivvay"/>
 		<element name="Dolos"/>
@@ -144,6 +146,7 @@
 		<element name="Gouf"/>
 		<element name="Gouf-Heavy"/>
 		<element name="Gwazine"/>
+		<element name="Gwazine-damaged"/>
 		<element name="Gyan"/>
 		<element name="Hygogg"/>
 		<element name="Jukon"/>
@@ -167,6 +170,7 @@
 		<element name="Zaku_II_Reuse-P"/>
 		<element name="Zaku_Marine"/>
 		<element name="Zanzibar"/>
+		<element name="Zanzibar-damaged"/>
 		<element name="Zeong"/>
 		<element name="ZGok"/>
 		<element name="ZGok-E"/>
@@ -205,7 +209,9 @@
 		<element name="Guntank"/>
 		<element name="Himalaya"/>
 		<element name="Magellan"/>
+		<element name="Magellan-damaged"/>
 		<element name="Pegasus"/>
+		<element name="Pegasus-damaged"/>
 		<element name="Saberfish"/>
 		<element name="Salamis"/>
 		<element name="TIN_Cod"/>	
@@ -214,6 +220,7 @@
 	<variable name="MS-Ace">
 		<element name="Zaku_II_R-2"/>
 		<element name="Big_Zam"/>
+		<element name="Big_Zam-damaged"/>
 		<element name="Kampfer"/>
 		<element name="Efreet"/>
 		<element name="Zaku_II_Reuse-P"/>
@@ -228,6 +235,7 @@
 		<element name="Zeong"/>
 		<element name="Schnee_Weis"/>
 		<element name="Apsaras_III"/>
+		<element name="Apsaras_III-damaged"/>
 		
 		<element name="Gundam"/>
 		<element name="Blue_Destiny_U1"/>
@@ -265,6 +273,7 @@
 		<element name="Zaku_II_R-2"/>
 		<element name="Zaku_II_F2"/>
 		<element name="Big_Zam"/>
+		<element name="Big_Zam-damaged"/>
 		<element name="Kampfer"/>
 		<element name="Zaku_II_Kai"/>
 		<element name="Rick_Dom"/>
@@ -304,6 +313,8 @@
 		<element name="Gelgoog_Ground"/>
 		<element name="Gelgoog_Marine"/>
 		<element name="Gelgoog_Desert"/>
+		<element name="Zaku_Marine"/>
+		<element name="Acguy"/>
 		
 		<element name="GM"/>
 		<element name="GM_Ground_Type"/>
@@ -312,6 +323,8 @@
 		<element name="GM_Cold"/>
 		<element name="Desert_GM"/>
 		<element name="GM_Night_Seeker"/>
+		<element name="Aqua_GM"/>
+		<element name="Aqua_GM_B"/>
 	</variable>
 	<variable name="MS-Heavy">
 		<element name="Gouf"/>
@@ -345,12 +358,14 @@
 		<element name="Gelgoog_Jager"/>
 		<element name="Elmeth"/>
 		<element name="Gelgoog_Cannon"/>
+		<element name="ZGok"/>
 		
 		<element name="Ball"/>
 		<element name="Guncannon"/>
 		<element name="GM_Light"/>
 		<element name="GM_Land_Combat"/>
 		<element name="GM_Command"/>
+		<element name="Aqua_GC"/>
 	</variable>
 	<variable name="MS-Land">
 		<element name="Zaku_II_Ground"/>
@@ -365,6 +380,7 @@
 		<element name="Gelgoog_Ground"/>
 		<element name="Gelgoog_Desert"/>
 		<element name="Apsaras_III"/>
+		<element name="Apsaras_III-damaged"/>
 		
 		<element name="Gundam_Ground_Type"/>
 		<element name="GM_Ground_Type"/>
@@ -387,11 +403,13 @@
 		<element name="GM_Cold"/>
 		
 		<element name="Apsaras_III"/>
+		<element name="Apsaras_III-damaged"/>
 	</variable>
 	<variable name="MS-Jungle">
 		<element name="GM_Spartan"/>
 		
 		<element name="Apsaras_III"/>
+		<element name="Apsaras_III-damaged"/>
 	</variable>
 	<variable name="MS-Marine">
 		<element name="Zaku_Marine"/>
@@ -411,8 +429,10 @@
 		<element name="Papua"/>
 		<element name="Chivvay"/>
 		<element name="Gwazine"/>
+		<element name="Gwazine-damaged"/>
 		<element name="Tivvay"/>
 		<element name="Dolos"/>
+		<element name="Dolos-damaged"/>
 		<element name="Zaku_II_Reuse-P"/>
 		<element name="Braw_Bro"/>
 		<element name="Dom_Bein_Nichts"/>
@@ -425,8 +445,10 @@
 		<element name="Saberfish"/>
 		<element name="Salamis"/>
 		<element name="Magellan"/>
+		<element name="Magellan-damaged"/>
 		<element name="Ball"/>
 		<element name="Pegasus"/>
+		<element name="Pegasus-damaged"/>
 		<element name="GM_Moore"/>
 		<element name="FA_Gundam"/>
 		<element name="GM_Juggler"/>
@@ -436,10 +458,13 @@
 		<element name="Chivvay"/>
 		<element name="Tivvay"/>
 		<element name="Gwazine"/>
+		<element name="Gwazine-damaged"/>
 		<element name="Dolos"/>
+		<element name="Dolos-damaged"/>
 		
 		<element name="Salamis"/>
 		<element name="Magellan"/>
+		<element name="Magellan-damaged"/>
 	</variable>
 	<variable name="Cruiser">
 		<element name="Musai"/>
@@ -450,13 +475,9 @@
 	</variable>
 	<variable name="Assault-Carrier">
 		<element name="Zanzibar"/>
+		<element name="Zanzibar-damaged"/>
 		<element name="Pegasus"/>
-	</variable>
-	<variable name="Battleship">
-		<element name="Gwazine"/>
-		<element name="Dolos"/>
-		
-		<element name="Magellan"/>
+		<element name="Pegasus-damaged"/>
 	</variable>
 	
 </variableList>
@@ -1078,6 +1099,10 @@
 	<connection t1="Colony 13 1" t2="Space Zone 145"/>
 	<connection t1="Colony 13 1" t2="Space Zone 148"/>
 	<connection t1="Colony 13 1" t2="Space Zone 147"/>
+	<connection t1="Colony 13 2" t2="Colony 13 1"/>
+	<connection t1="Colony 13 2" t2="Space Zone 147"/>
+	<connection t1="Colony 13 2" t2="Space Zone 143"/>
+	<connection t1="Colony 13 2" t2="Space Zone 144"/>
 	<connection t1="Colony 30 1" t2="Colony 30 2"/>
 	<connection t1="Colony 30 1" t2="Space Zone 7"/>
 	<connection t1="Colony 30 1" t2="Space Zone 8"/>
@@ -1172,6 +1197,7 @@
 	<connection t1="Finland" t2="Water 58"/>
 	<connection t1="France" t2="Germany"/>
 	<connection t1="France" t2="Spain"/>
+	<connection t1="France" t2="Italy"/>
 	<connection t1="France" t2="Water 17"/>
 	<connection t1="France" t2="Water 21"/>
 	<connection t1="France" t2="Water 33"/>
@@ -2019,6 +2045,7 @@
 		<!--Ace Units-->
 				<unit name="Zaku_II_R-2"/>
 				<unit name="Big_Zam"/>
+				<unit name="Big_Zam-damaged"/>
 				<unit name="Kampfer"/>
 				<unit name="Efreet"/>
 				<unit name="Zaku_II_Reuse-P"/>
@@ -2035,6 +2062,8 @@
 				<unit name="Zeong"/>
 				<unit name="Schnee_Weis"/>
 				<unit name="Apsaras_III"/>
+				<unit name="Apsaras_III-damaged"/>
+				<unit name="Dom_Bein_Nichts"/>
 		<!--Ground/Marine-->
 			<!--Air-Units-->
 				<unit name="Dopp"/>
@@ -2067,8 +2096,11 @@
 				<unit name="Chivvay"/> <!--Heavy Cruiser-->
 				<unit name="Tivvay"/> <!--Improved Heavy Cruiser-->
 				<unit name="Zanzibar"/> <!--Assault Carrier, can go to Earth-->
+				<unit name="Zanzibar-damaged"/> <!--Assault Carrier, can go to Earth-->
 				<unit name="Gwazine"/> <!--Battleship-->
+				<unit name="Gwazine-damaged"/> <!--Battleship-->
 				<unit name="Dolos"/> <!--Battleship/Supercarrier-->
+				<unit name="Dolos-damaged"/> <!--Battleship/Supercarrier-->
 				<unit name="Dom_Bein_Nichts"/> 
 		<!--Hybrid-->
 				<unit name="Zaku_II"/>
@@ -2168,7 +2200,9 @@
 				<unit name="Columbus"/> <!--Supply Ship-->
 				<unit name="Salamis"/> <!--Cruiser-->
 				<unit name="Pegasus"/> <!--Assault Carrier, can go to Earth-->
+				<unit name="Pegasus-damaged"/> <!--Assault Carrier, can go to Earth-->
 				<unit name="Magellan"/> <!--Battleship-->
+				<unit name="Magellan-damaged"/> <!--Battleship-->
 			<!--Space--> <!--Can go in Space, Moon, and Colonies only, no Earth-->
 				<unit name="Saberfish"/>
 				<unit name="Ball"/>
@@ -3008,6 +3042,53 @@
 	  <result resourceOrUnit="Develop-GMJuggler" quantity="1"/>	
 	</productionRule>
 	
+	<repairRule name="repairGwazine">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Gwazine" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairZanzibar">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Zanzibar" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairMadAngler">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Mad_Angler" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairDolos">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Dolos" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairBigZam">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Big_Zam" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairApsarasIII">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Apsaras_III" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairHimalaya">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Himalaya" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairMagellan">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Magellan" quantity="1"/>
+	</repairRule>
+	<repairRule name="repairPegasus">
+		<cost resource="PUs" quantity="1"/>
+		<result resourceOrUnit="Pegasus" quantity="1"/>
+	</repairRule>
+	<repairFrontier name="repair">
+            <repairRules name="repairGwazine"/>
+            <repairRules name="repairZanzibar"/>
+			<repairRules name="repairMadAngler"/>
+			<repairRules name="repairDolos"/>
+			<repairRules name="repairBigZam"/>
+			<repairRules name="repairApsarasIII"/>
+			<repairRules name="repairHimalaya"/>
+			<repairRules name="repairMagellan"/>
+			<repairRules name="repairPegasus"/>
+	</repairFrontier>
 	<!--Federation-->
 	<productionFrontier name="EFGFProduction">
 		<!--Tier 0-->
@@ -3116,6 +3197,12 @@
 	<playerProduction player="Zeon-EAF" frontier="Zeon-EAFProduction"/>
 	<playerProduction player="Zeon-MAF" frontier="Zeon-MAFProduction"/>
 	<playerProduction player="Zeon-SAF" frontier="Zeon-SAFProduction"/>
+	<playerRepair player="EFGF" frontier="repair"/>
+	<playerRepair player="EFSF" frontier="repair"/>
+	<playerRepair player="OpV" frontier="repair"/>
+	<playerRepair player="Zeon-EAF" frontier="repair"/>
+	<playerRepair player="Zeon-MAF" frontier="repair"/>
+	<playerRepair player="Zeon-SAF" frontier="repair"/>
 </production>
 
 <attachmentList>
@@ -3233,7 +3320,7 @@
 			</attachment>
 		<!--Americas-->
 			<attachment name="territoryAttachment" attatchTo="Jaburo" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="10"/>
+				<option name="production" value="8"/>
 				<option name="capital" value="EFGF"/>	<!-- AI will target -->
 				<option name="victoryCity" value="1"/>
 				<option name="originalOwner" value="EFGF"/>
@@ -3262,7 +3349,7 @@
 				<option name="territoryEffect" value="Arctic"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Eastern Canada" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3281,13 +3368,13 @@
 				<option name="territoryEffect" value="Mountains"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Eastern US" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Urban"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Augusta Base" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3335,7 +3422,7 @@
 				<option name="territoryEffect" value="Jungle"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Brazil" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Jungle"/>
@@ -3343,7 +3430,7 @@
 				<option name="territoryEffect" value="Desert"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Argentina" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3382,14 +3469,14 @@
 				<option name="territoryEffect" value="Desert"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Egypt" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Desert"/>
 				<option name="territoryEffect" value="Urban"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="West Africa" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3432,7 +3519,7 @@
 				<option name="territoryEffect" value="Jungle"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Horn of Africa" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3473,7 +3560,7 @@
 				<option name="territoryEffect" value="Mountains"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="South Africa" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="OpV"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Desert"/>
@@ -3489,7 +3576,7 @@
 				<option name="territoryEffect" value="Urban"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="France" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3507,7 +3594,7 @@
 				<option name="territoryEffect" value="Mountains"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Germany" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3520,7 +3607,7 @@
 				<option name="territoryEffect" value="Arctic"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Italy" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3538,19 +3625,19 @@
 				<option name="territoryEffect" value="Earth"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Odessa" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="10"/>
+				<option name="production" value="8"/>
 				<option name="capital" value="Zeon-EAF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Urban"/>
 				<option name="victoryCity" value="1"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Poland" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Balkans" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3568,7 +3655,7 @@
 				<option name="territoryEffect" value="Arctic"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Caucasus Landing Zone" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 			</attachment>
@@ -3652,7 +3739,7 @@
 				<option name="territoryEffect" value="Urban"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Japan" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3665,7 +3752,7 @@
 				<option name="territoryEffect" value="Desert"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Beijing" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3685,13 +3772,13 @@
 				<option name="victoryCity" value="1"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Eastern China" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Hubei" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3716,7 +3803,7 @@
 				<option name="victoryCity" value="1"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Guangxi" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -3730,35 +3817,35 @@
 				<option name="territoryEffect" value="Jungle"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Eastern India" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
 				<option name="territoryEffect" value="Jungle"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Northern India" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
 				<option name="territoryEffect" value="Desert"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Southern India" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="6"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Urban"/>
 				<option name="territoryEffect" value="Jungle"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Indochina Landing Zone" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="4"/>
+				<option name="production" value="3"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Jungle"/>
 				<option name="territoryEffect" value="Mountains"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="Malaysia" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3827,7 +3914,7 @@
 				<option name="territoryEffect" value="Earth"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="West Australia" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="5"/>
+				<option name="production" value="4"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth-Dock"/>
 				<option name="territoryEffect" value="Urban"/>
@@ -3883,7 +3970,7 @@
 				<option name="territoryEffect" value="Mountains"/>
 			</attachment>
 			<attachment name="territoryAttachment" attatchTo="New Zealand" javaClass="TerritoryAttachment" type="territory">
-				<option name="production" value="3"/>
+				<option name="production" value="2"/>
 				<option name="originalOwner" value="EFGF"/>
 				<option name="territoryEffect" value="Earth"/>
 				<option name="territoryEffect" value="Mountains"/>
@@ -4074,7 +4161,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Kepler" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="2"/>
+			<option name="production" value="3"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Von Braun North" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
@@ -4156,7 +4243,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mare Nectaris" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
-			<option name="production" value="1"/>
+			<option name="production" value="2"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Aires City" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Moon"/>
@@ -4204,7 +4291,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Londenion 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="EFSF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Blade 1" javaClass="TerritoryAttachment" type="territory">
@@ -4221,7 +4308,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Island Ease 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 30 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4229,11 +4316,11 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 30 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier One 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Frontier One 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4296,7 +4383,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Watohoat 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Watohoat 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4346,7 +4433,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Tigerbaum 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="Zeon-SAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Tigerbaum 2" javaClass="TerritoryAttachment" type="territory">
@@ -4356,7 +4443,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Quintzem 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Quintzem 2" javaClass="TerritoryAttachment" type="territory">
@@ -4371,7 +4458,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Mahal 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Zum City 1" javaClass="TerritoryAttachment" type="territory">
@@ -4381,12 +4468,12 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Zum City 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="Zeon-MAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony Nine 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 			<option name="originalOwner" value="Zeon-EAF"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony Nine 2" javaClass="TerritoryAttachment" type="territory">
@@ -4407,7 +4494,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Amelia 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="3"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Amelia 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4419,7 +4506,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Colony 13 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="21st Block 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -4444,7 +4531,7 @@
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="18th Block 2" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
-			<option name="production" value="4"/>
+			<option name="production" value="5"/>
 		</attachment>
 		<attachment name="territoryAttachment" attatchTo="Green Noa One 1" javaClass="TerritoryAttachment" type="territory">
 			<option name="territoryEffect" value="Colony"/>
@@ -5229,48 +5316,43 @@
 			<option name="movementCostModifier" value="$Hybrid$:$Assault-Carrier$" count="1"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Mountains" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="combatDefenseEffect" value="1:$Hybrid$:$MS-Land$:$MS-Marine$:$MBT$"/>
+			<option name="combatDefenseEffect" value="1:$All-Units$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Mountain$"/>
-			<option name="combatDefenseEffect" value="1:$MS-Mountain$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Urban" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$:$MS-Marine$:$MBT$:$Air-Unit$"/>
+			<option name="combatOffenseEffect" value="-1:$All-Units$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Jungle" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="unitsNotAllowed" value="$Space-Only$"/>
-			<option name="combatOffenseEffect" value="-1:$Hybrid$:$MS-Land$:$Assault-Carrier$"/>
-			<option name="combatDefenseEffect" value="-1:$Hybrid$:$MS-Land$:$Assault-Carrier$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Jungle$:$MS-Marine$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Jungle$:$MS-Marine$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Arctic" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="unitsNotAllowed" value="$Space-Only$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Mountain$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Mountain$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Desert" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="unitsNotAllowed" value="$Space-Only$"/>
 			<option name="combatOffenseEffect" value="1:$MS-Desert$"/>
 			<option name="combatDefenseEffect" value="1:$MS-Desert$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Ocean" javaClass="TerritoryEffectAttachment" type="territoryEffect">
-			<option name="unitsNotAllowed" value="$MBT$:$Space-Only$"/>
-			<option name="combatOffenseEffect" value="-2:$MS-Land$:$Hybrid$:$Assault-Carrier$"/>
-			<option name="combatDefenseEffect" value="-2:$MS-Land$:$Hybrid$:$Assault-Carrier$"/>
+			<option name="unitsNotAllowed" value="$Space-Only$"/>
+			<option name="combatOffenseEffect" value="-2:$MBT$:$MS-Land$:$Hybrid$:$Assault-Carrier$"/>
+			<option name="combatDefenseEffect" value="-2:$MBT$:$MS-Land$:$Hybrid$:$Assault-Carrier$"/>
 			<option name="movementCostModifier" value="$MS-Land$:$Hybrid$" count="1"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Entry" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$MBT$:$MS-Land$:$MS-Marine$"/>
-			<option name="combatOffenseEffect" value="-3:$Hybrid$:$Assault-Carrier$"/>
-			<option name="combatDefenseEffect" value="-3:$Hybrid$:$Assault-Carrier$"/>
-			<option name="movementCostModifier" value="$Hybrid$:$Assault-Carrier$" count="1"/>
+			<option name="combatOffenseEffect" value="-3:$All-Units$"/>
+			<option name="combatDefenseEffect" value="-3:$All-Units$"/>
+			<option name="movementCostModifier" value="$All-Units$" count="1"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Space" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$MS-Land$:$MS-Marine$:$Naval$:$Air-Unit$:$MBT$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Colony" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$MS-Land$:$MS-Marine$:$Naval$:$Air-Unit$:$MBT$"/>
-			<option name="combatOffenseEffect" value="-1:$Space-Only$"/>
+			<option name="combatOffenseEffect" value="-1:$Hybrid$:$Space-Only$"/>
+			<option name="combatOffenseEffect" value="-2:$Starship$"/>
 		</attachment>
 		<attachment name="territoryEffectAttachment" attachTo="Moon" javaClass="TerritoryEffectAttachment" type="territoryEffect">
 			<option name="unitsNotAllowed" value="$MS-Land$:$MS-Marine$:$Naval$:$Air-Unit$:$MBT$"/>
@@ -5302,6 +5384,7 @@
 			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
 			<option name="isConstruction" value="true"/>
 			<option name="maxConstructionsPerTypePerTerr" value="1"/>
+			<option name="repairsUnits" value="Gwazine-damaged:Zanzibar-damaged:Dolos-damaged:Big_Zam-damaged:Apsaras_III-damaged:Magellan-damaged:Pegasus-damaged"/>
 		</attachment>
 		
 		<!-- Use Factory-Earth for Ground Units/Marine Units -->
@@ -5314,8 +5397,13 @@
 			<option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
 			<option name="isConstruction" value="true"/>
 			<option name="maxConstructionsPerTypePerTerr" value="1"/>
+			<option name="repairsUnits" value="Gwazine-damaged:Zanzibar-damaged:Dolos-damaged:Big_Zam-damaged:Apsaras_III-damaged:Magellan-damaged:Pegasus-damaged"/>
 		</attachment>
 	<!--Units-->
+		<!--
+            <option name="attackRolls" value="2"/>
+            <option name="defenseRolls" value="2"/>
+		-->
 		<!--Zeon-->
 			<!--Tier 0-->
 				<attachment name="unitAttachment" attachTo="Dopp" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
@@ -5381,6 +5469,18 @@
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Gwazine-damaged"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Gwazine-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="8"/>
+					<option name="defense" value="9"/>
+					<option name="movement" value="2"/>
+					<option name="hitPoints" value="1"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
+					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Gwazine"/>
+					<option name="tuv" value="20"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Zaku_II_Ground" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="3"/>
@@ -5404,6 +5504,16 @@
 					<option name="hitPoints" value="2"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Zanzibar-damaged"/>					
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Zanzibar-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="6"/>
+					<option name="defense" value="7"/>
+					<option name="movement" value="2"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Zanzibar"/>
+					<option name="tuv" value="20"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Papua" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="1"/>
@@ -5505,6 +5615,18 @@
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Dolos-damaged"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Dolos-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="10"/>
+					<option name="defense" value="11"/>
+					<option name="movement" value="2"/>
+					<option name="maxBuiltPerPlayer" value="1"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
+					<option name="canBlitz" value="true"/>
+					<option name="tuv" value="30"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Dolos"/> 
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Big_Zam" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="6"/>
@@ -5514,6 +5636,27 @@
 					<option name="maxBuiltPerPlayer" value="1"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Big_Zam-damaged"/>
+					
+					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
+					<option name="attackAA" value="4"/><!--misnomer, this applies to defense-->
+					<option name="offensiveAttackAAmaxDieSides" value="12"/>
+					<option name="attackAAmaxDieSides" value="12"/>
+					<option name="maxAAattacks" value="1"/>
+					<option name="maxRoundsAA" value="1"/>
+					<option name="isAAforCombatOnly" value="true"/><!-- false = it will defend against strategic bombing raids-->
+					<option name="typeAA" value="Newtype"/>
+					<option name="targetsAA" value="TIN_Cod:Fly_Manta:Type_61_Tank:Himalaya:Saberfish:Salamis:Magellan:Guntank:Ball:Pegasus:Guncannon:Gundam:Aqua_GC:Blue_Destiny_U1:GM:Gundam_Ground_Type:Aqua_GM:Blue_Destiny_U2:GM_Sniper_Custom:GM_Light:GM_Moore:GM_Ground_Type:Atlas_Gundam:Blue_Destiny_U3:FA_Gundam:Gundam_Pixy:GM_Land_Combat:GM_Type_C:Aqua_GM_B:GM_Striker:GM_Sniper_II:Armored_GM:GM_Cold:Desert_GM:Gundam_Alex:GM_Command:GM_Spartan:GM_Night_Seeker:GM_Juggler"/>
+					<option name="mayOverStackAA" value="true"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Big_Zam-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="6"/>
+					<option name="defense" value="7"/>
+					<option name="movement" value="2"/>
+					<option name="maxBuiltPerPlayer" value="1"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Big_Zam"/>
 					
 					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
 					<option name="attackAA" value="4"/><!--misnomer, this applies to defense-->
@@ -5751,9 +5894,21 @@
 					<option name="attack" value="6"/>
 					<option name="defense" value="7"/>
 					<option name="movement" value="3"/>
+					<option name="maxBuiltPerPlayer" value="1"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
+					
+					<option name="offensiveAttackAA" value="3"/><!--sets the value the AA will attack at-->
+					<option name="attackAA" value="4"/><!--misnomer, this applies to defense-->
+					<option name="offensiveAttackAAmaxDieSides" value="12"/>
+					<option name="attackAAmaxDieSides" value="12"/>
+					<option name="maxAAattacks" value="1"/>
+					<option name="maxRoundsAA" value="1"/>
+					<option name="isAAforCombatOnly" value="true"/><!-- false = it will defend against strategic bombing raids-->
+					<option name="typeAA" value="Newtype"/>
+					<option name="targetsAA" value="TIN_Cod:Fly_Manta:Type_61_Tank:Himalaya:Saberfish:Salamis:Magellan:Guntank:Ball:Pegasus:Guncannon:Gundam:Aqua_GC:Blue_Destiny_U1:GM:Gundam_Ground_Type:Aqua_GM:Blue_Destiny_U2:GM_Sniper_Custom:GM_Light:GM_Moore:GM_Ground_Type:Atlas_Gundam:Blue_Destiny_U3:FA_Gundam:Gundam_Pixy:GM_Land_Combat:GM_Type_C:Aqua_GM_B:GM_Striker:GM_Sniper_II:Armored_GM:GM_Cold:Desert_GM:Gundam_Alex:GM_Command:GM_Spartan:GM_Night_Seeker:GM_Juggler"/>
+					<option name="mayOverStackAA" value="true"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Dom_Gross_Beil" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="6"/>
@@ -5922,10 +6077,33 @@
 					<option name="attack" value="10"/>
 					<option name="defense" value="11"/>
 					<option name="movement" value="2"/>
+					<option name="hitPoints" value="2"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 					<option name="canBlitz" value="true"/>
 					<option name="maxBuiltPerPlayer" value="1"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Apsaras_III-damaged"/>
+					
+					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
+					<option name="attackAA" value="6"/><!--misnomer, this applies to defense-->
+					<option name="offensiveAttackAAmaxDieSides" value="12"/>
+					<option name="attackAAmaxDieSides" value="12"/>
+					<option name="maxAAattacks" value="2"/>
+					<option name="maxRoundsAA" value="1"/>
+					<option name="isAAforCombatOnly" value="true"/><!-- false = it will defend against strategic bombing raids-->
+					<option name="typeAA" value="Newtype"/>
+					<option name="targetsAA" value="TIN_Cod:Fly_Manta:Type_61_Tank:Himalaya:Saberfish:Salamis:Magellan:Guntank:Ball:Pegasus:Guncannon:Gundam:Aqua_GC:Blue_Destiny_U1:GM:Gundam_Ground_Type:Aqua_GM:Blue_Destiny_U2:GM_Sniper_Custom:GM_Light:GM_Moore:GM_Ground_Type:Atlas_Gundam:Blue_Destiny_U3:FA_Gundam:Gundam_Pixy:GM_Land_Combat:GM_Type_C:Aqua_GM_B:GM_Striker:GM_Sniper_II:Armored_GM:GM_Cold:Desert_GM:Gundam_Alex:GM_Command:GM_Spartan:GM_Night_Seeker:GM_Juggler"/>
+					<option name="mayOverStackAA" value="true"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Apsaras_III-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="10"/>
+					<option name="defense" value="11"/>
+					<option name="movement" value="2"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Earth"/>
+					<option name="canBlitz" value="true"/>
+					<option name="maxBuiltPerPlayer" value="1"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Apsaras_III"/>
 					
 					<option name="offensiveAttackAA" value="5"/><!--sets the value the AA will attack at-->
 					<option name="attackAA" value="6"/><!--misnomer, this applies to defense-->
@@ -5944,6 +6122,7 @@
 					<option name="attack" value="2"/>
 					<option name="defense" value="2"/>
 					<option name="movement" value="4"/>
+					<option name="isAir" value="true"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
@@ -5951,6 +6130,7 @@
 					<option name="attack" value="3"/>
 					<option name="defense" value="3"/>
 					<option name="movement" value="4"/>
+					<option name="isAir" value="true"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Earth"/>
 				</attachment>
@@ -5994,6 +6174,17 @@
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="requiresUnits" value="Factory-Space"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Magellan-damaged"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Magellan-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="8"/>
+					<option name="defense" value="9"/>
+					<option name="movement" value="2"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="requiresUnits" value="Factory-Space"/>
+					<option name="canBlitz" value="true"/>
+					<option name="tuv" value="20"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Magellan"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Guntank" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="4"/>
@@ -6017,6 +6208,16 @@
 					<option name="hitPoints" value="2"/>
 					<option name="createsResourcesList" value="-2:PUs"/>
 					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsDamagedChangesInto" value="1:true:Pegasus-damaged"/>
+				</attachment>
+				<attachment name="unitAttachment" attachTo="Pegasus-damaged" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+					<option name="attack" value="6"/>
+					<option name="defense" value="7"/>
+					<option name="movement" value="2"/>
+					<option name="createsResourcesList" value="-2:PUs"/>
+					<option name="canBlitz" value="true"/>
+					<option name="whenHitPointsRepairedChangesInto" value="0:true:Pegasus"/>
+					<option name="tuv" value="20"/>
 				</attachment>
 				<attachment name="unitAttachment" attachTo="Guncannon" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
 					<option name="attack" value="4"/>
@@ -7013,15 +7214,6 @@
 					<option name="number" value="1" />
 					<option name="bonusType" value="Anti-MS" />
 				</attachment>
-				<attachment foreach="$MS-GP$" name="supportAttachment_MS-GP_B" attachTo="@MS-GP@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-					<option name="unitType" value="$Starship$" />
-					<option name="faction" value="allied" />
-					<option name="side" value="defence" />
-					<option name="dice" value="strength" />
-					<option name="bonus" value="1" />
-					<option name="number" value="1" />
-					<option name="bonusType" value="MS Protection" />
-				</attachment>
 			<!--MS-Heavy-->
 				<!--
 				<attachment foreach="$MS-Heavy$" name="supportAttachment_MS-Heavy" attachTo="@MS-Heavy@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
@@ -7047,40 +7239,13 @@
 			<!--MS-Marine-->
 			<!--MS-Land-->
 			<!--MBT-->
-				<attachment foreach="$MBT$" name="supportAttachment_MBT" attachTo="@MBT@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-					<option name="unitType" value="$MS-GP$:$MS-Land$:$MS-Marine$:$MS-Ace$" />
-					<option name="faction" value="enemy" />
-					<option name="side" value="offence" />
-					<option name="dice" value="strength" />
-					<option name="bonus" value="1" />
-					<option name="number" value="1" />
-					<option name="bonusType" value="MS Superiority" />
-				</attachment>
 			<!--Air-->
-				<attachment foreach="$Air-Unit$" name="supportAttachment_Air-Unit" attachTo="@Air-Unit@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-					<option name="unitType" value="$MS-GP$:$MS-Land$:$MS-Marine$:$MS-Ace$" />
-					<option name="faction" value="enemy" />
-					<option name="side" value="offence" />
-					<option name="dice" value="strength" />
-					<option name="bonus" value="1" />
-					<option name="number" value="1" />
-					<option name="bonusType" value="MS Superiority" />
-				</attachment>
 			<!--Starship-->
-				<attachment foreach="$Starship$" name="supportAttachment_Starship" attachTo="@Starship@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
-					<option name="unitType" value="$MS-GP$:$MS-Land$:$MS-Marine$:$MS-Ace$" />
-					<option name="faction" value="enemy" />
-					<option name="side" value="offence" />
-					<option name="dice" value="strength" />
-					<option name="bonus" value="1" />
-					<option name="number" value="1" />
-					<option name="bonusType" value="MS Superiority" />
-				</attachment>
 			<!--Naval-->
 				<attachment foreach="$Naval$" name="supportAttachment_Naval" attachTo="@Naval@" javaClass="games.strategy.triplea.attachments.UnitSupportAttachment" type="unitType">
 					<option name="unitType" value="$MS-Marine$" />
 					<option name="faction" value="allied" />
-					<option name="side" value="offence" />
+					<option name="side" value="offence:defence" />
 					<option name="dice" value="strength" />
 					<option name="bonus" value="1" />
 					<option name="number" value="1" />
@@ -8267,7 +8432,7 @@
 					<option name="productionRule" value="EFGFProduction:buyAtlasGundam"/>
 					<option name="productionRule" value="EFSFProduction:buyAtlasGundam"/>
 					<option name="productionRule" value="OpVProduction:buyAtlasGundam"/>
-					<option name="removeUnits" value="all:Develop-AtlasGundam count="1"/>
+					<option name="removeUnits" value="all:Develop-AtlasGundam" count="1"/>
 					<option name="uses" value="1"/>
 				</attachment>
 				<attachment foreach="$PlayersFederation$" name="conditionAttachment-@PlayersFederation@-Develop-AquaGMB" attachTo="@PlayersFederation@" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
@@ -8828,8 +8993,18 @@
 					<option name="removeUnits" value="all:Develop-GMSpartan" count="1"/>
 					<option name="uses" value="1"/>
 				</attachment>
-				
-				
+	<!--AI Trigger-Condition-->
+		<attachment name="conditionAttachmentZeonEAFHuman" attachTo="Zeon-EAF" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+			<option name="gameProperty" value="Zeon-EAF Human Player"/>
+			<option name="invert" value="true"/>
+		</attachment>
+		<attachment name="triggerAttachmentZeonEAFAI" attachTo="Zeon-EAF" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+			<option name="trigger" value="conditionAttachmentZeonEAFHuman"/>
+			<option name="unitType" value="Zaku_II_Ground"/>
+			<option name="unitProperty" value="tuv" count="4"/>
+			<option name="uses" value="10"/>
+			<option name="when" value="before:zeon-EAFCombatMove"/>
+		</attachment>
 	
 	<!-- ======================================= GO VICTORY ======================================= -->
 <!-- Notify All Players Test -->
@@ -9107,11 +9282,11 @@
 		<resourceGiven player="EFGF" 	resource="Tech" quantity="3"/>
 		<resourceGiven player="OpV" 	resource="PUs" quantity="80"/>
 		<resourceGiven player="OpV" 	resource="Tech" quantity="3"/>
-		<resourceGiven player="Zeon-EAF" 	resource="PUs" quantity="100"/>
+		<resourceGiven player="Zeon-EAF" 	resource="PUs" quantity="150"/>
 		<resourceGiven player="Zeon-EAF" 	resource="Tech" quantity="3"/>
-		<resourceGiven player="Zeon-MAF" 	resource="PUs" quantity="100"/>
+		<resourceGiven player="Zeon-MAF" 	resource="PUs" quantity="150"/>
 		<resourceGiven player="Zeon-MAF" 	resource="Tech" quantity="3"/>
-		<resourceGiven player="Zeon-SAF" 	resource="PUs" quantity="100"/>
+		<resourceGiven player="Zeon-SAF" 	resource="PUs" quantity="150"/>
 		<resourceGiven player="Zeon-SAF" 	resource="Tech" quantity="3"/>
 	</resourceInitialize>
 	<unitInitialize>
@@ -9217,18 +9392,18 @@
 		<!--Earth-->
 			<!--Americas-->
 				<unitPlacement owner="Zeon-EAF" territory="California Base" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="California Base" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="California Base" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="California Base" unitType="Gaw" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Midwest Landing Zone" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Southern US" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Southern US" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Southern US" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Southern US" unitType="Dopp" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Alaska" unitType="Zaku_II" quantity="1"/>
 				
 				<unitPlacement owner="Zeon-MAF" territory="Eastern US" unitType="Gaw" quantity="1"/>
 				<unitPlacement owner="Zeon-MAF" territory="Eastern US" unitType="Dopp" quantity="1"/>
 				<unitPlacement owner="Zeon-MAF" territory="Augusta Base" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-MAF" territory="Augusta Base" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-MAF" territory="Augusta Base" unitType="Magella" quantity="2"/>
 				
 				<unitPlacement owner="Zeon-MAF" territory="Water 15" unitType="Jukon" quantity="1"/>
 				
@@ -9250,9 +9425,9 @@
 				<unitPlacement owner="EFGF" territory="Water 27" unitType="Himalaya" quantity="2"/>
 			<!--Africa-->
 				<unitPlacement owner="Zeon-EAF" territory="North Africa" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="North Africa" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="North Africa" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="North Africa" unitType="Dopp" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Central Sahara" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Central Sahara" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Egypt" unitType="Magella" quantity="2"/>
 				
 				<unitPlacement owner="Zeon-EAF" territory="Water 56" unitType="Jukon" quantity="1"/>
@@ -9288,29 +9463,29 @@
 				<unitPlacement owner="EFGF" territory="East Baltics" unitType="Type_61_Tank" quantity="1"/>
 				<unitPlacement owner="EFGF" territory="Russia" unitType="Type_61_Tank" quantity="1"/>
 				
-				<unitPlacement owner="Zeon-EAF" territory="Spain" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Spain" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Italy" unitType="Zaku_II" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Italy" unitType="Dopp" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Balkans" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Balkans" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Poland" unitType="Magella" quantity="2"/>
-				<unitPlacement owner="Zeon-EAF" territory="Odessa" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Odessa" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Odessa" unitType="Zaku_II" quantity="3"/>
+				<unitPlacement owner="Zeon-EAF" territory="Odessa" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Caucasus Landing Zone" unitType="Zaku_II" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Turkiye" unitType="Gaw" quantity="1"/>
 				
 				<unitPlacement owner="Zeon-EAF" territory="Water 56" unitType="Jukon" quantity="1"/>
 				<unitPlacement owner="EFGF" territory="Water 58" unitType="Himalaya" quantity="1"/>
 			<!--Asia-->
-				<unitPlacement owner="Zeon-EAF" territory="Northern Arabia" unitType="Magella" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Northern Arabia" unitType="Zaku_II" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Kazakhstan" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Northern Arabia" unitType="Magella" quantity="2"/>
+				<unitPlacement owner="Zeon-EAF" territory="Northern Arabia" unitType="Zaku_II" quantity="2"/>
+				<unitPlacement owner="Zeon-EAF" territory="Kazakhstan" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Central Asia" unitType="Magella" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Southern India" unitType="Magella" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Eastern India" unitType="Dopp" quantity="1"/>
 				<unitPlacement owner="Zeon-EAF" territory="Myanmar" unitType="Dopp" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Guangxi" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Guangxi" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Indochina Landing Zone" unitType="Zaku_II" quantity="2"/>
-				<unitPlacement owner="Zeon-EAF" territory="Malaysia" unitType="Magella" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Malaysia" unitType="Magella" quantity="2"/>
 				<unitPlacement owner="Zeon-EAF" territory="Malaysia" unitType="Gaw" quantity="1"/>
 				
 				<unitPlacement owner="Zeon-EAF" territory="Taiwan" unitType="Dopp" quantity="1"/>
@@ -9330,16 +9505,16 @@
 				<unitPlacement owner="EFGF" territory="Japan" unitType="TIN_Cod" quantity="1"/>
 				<unitPlacement owner="EFGF" territory="Japan" unitType="Himalaya" quantity="1"/>
 			<!--Oceania-->
-				<unitPlacement owner="Zeon-MAF" territory="Borneo" unitType="Zaku_II" quantity="1"/>
+				<unitPlacement owner="Zeon-MAF" territory="Borneo" unitType="Zaku_II" quantity="2"/>
 				<unitPlacement owner="Zeon-MAF" territory="Borneo" unitType="Jukon" quantity="1"/>
 				<unitPlacement owner="Zeon-MAF" territory="Sunda Islands" unitType="Magella" quantity="1"/>
 				
 				<unitPlacement owner="Zeon-EAF" territory="Water 41" unitType="Jukon" quantity="1"/>
 				
-				<unitPlacement owner="Zeon-EAF" territory="Southern Australia" unitType="Magella" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Central Australia" unitType="Magella" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="Northern Territory" unitType="Dopp" quantity="1"/>
-				<unitPlacement owner="Zeon-EAF" territory="West Australia" unitType="Zaku_II" quantity="1"/>
+				<unitPlacement owner="Zeon-EAF" territory="Southern Australia" unitType="Magella" quantity="2"/>
+				<unitPlacement owner="Zeon-EAF" territory="Central Australia" unitType="Magella" quantity="2"/>
+				<unitPlacement owner="Zeon-EAF" territory="Northern Territory" unitType="Dopp" quantity="2"/>
+				<unitPlacement owner="Zeon-EAF" territory="West Australia" unitType="Zaku_II" quantity="2"/>
 				
 				<unitPlacement owner="EFGF" territory="Eastern Australia" unitType="Type_61_Tank" quantity="1"/>
 				<unitPlacement owner="EFGF" territory="Queensland" unitType="Type_61_Tank" quantity="1"/>
@@ -9551,11 +9726,11 @@
     <property name="Units Repair Hits End Turn" value="false" editable="true">
       <boolean />
     </property>
-    <property name="Units Repair Hits Start Turn" value="true" editable="true">
+    <property name="Units Repair Hits Start Turn" value="false" editable="true">
       <boolean />
     </property>
     <!-- in order to repair, a unit must in the presence of a unit with "repairsUnits" unit attachment -->
-    <property name="Two HitPoint Units Require Repair Facilities" value="false" editable="false">
+    <property name="Two HitPoint Units Require Repair Facilities" value="true" editable="false">
       <boolean />
     </property>
     <!-- Display Options -->
@@ -9577,7 +9752,7 @@
     <property name="WW2V3" value="true" editable="false">
       <boolean />
     </property>
-    <property name="WW2V3 Tech Model" value="true" editable="false">
+    <property name="WW2V3 Tech Model" value="false" editable="false">
       <boolean />
     </property>
     <property name="Selectable Tech Roll" value="false" editable="false">
