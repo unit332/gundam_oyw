@@ -1,4 +1,4 @@
 map_name: gundam_oyw
 games:
-- { game_name: Gundam - The One Year War,  file_name: gundam_oyw.xml}
-version:1.2
+- { game_name: 'Gundam: One Year War (6 Player)',  file_name: gundam_oyw.xml}
+- { game_name: 'Gundam: One Year War (2 Player)',  file_name: gundam_oyw_2.xml}
